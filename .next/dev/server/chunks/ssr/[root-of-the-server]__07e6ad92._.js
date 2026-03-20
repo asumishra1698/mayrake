@@ -1559,7 +1559,7 @@ function HomePage() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex justify-center mb-6",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                        src: "https://scontent.fdel1-7.fna.fbcdn.net/v/t39.30808-6/464148595_122093681102593341_7521620546675822904_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=UUcd1Qoj6csQ7kNvwEWuO_1&_nc_oc=Ado2OZjbV0Q3utNuQNxJJCA40gVxd_AQdmMu2-PMDElhAx5gOZUJIXiLST-CXree_9xHW7vHkXRWr32IqNXKwFj_&_nc_zt=23&_nc_ht=scontent.fdel1-7.fna&_nc_gid=IrHxdnGF1of8-kLlrW2ssA&_nc_ss=7a30f&oh=00_AfwkAwdmTb9ECdIO9AJ0Ms_N3IIJABK7pff9y-vDsTAtvA&oe=69C2B180",
+                                        src: "founder.jpg",
                                         alt: "Founder",
                                         className: "rounded-full shadow-lg w-40 h-40 object-cover border-4 border-blue-100"
                                     }, void 0, false, {
