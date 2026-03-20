@@ -225,7 +225,7 @@ export default function HomePage() {
                   isValid={(val, country) => {
                     const dc = (country && country.dialCode) || "";
                     const national = (val || "").replace(/\D/g, "").replace(new RegExp("^" + dc), "");
-                    return national.length === 10 || "Enter 10-digit mobile number";
+                    // return national.length === 10 || "Enter 10-digit mobile number";
                   }}
                   inputProps={{ name: "phone", required: true, inputMode: "numeric" }}
                   placeholder="Mobile number*"
