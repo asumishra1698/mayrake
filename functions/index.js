@@ -59,7 +59,7 @@ exports.contact = onRequest({ secrets: [SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PA
 		});
 
 				const mailOptions = {
-						from: `SOP Edits Enquiry <${SMTP_USER.value()}>`,
+						from: `Mayrake Enquiry <${SMTP_USER.value()}>`,
 						to: TO_EMAIL.value() || SMTP_USER.value(),
 						subject: `New enquiry • ${name}`,
 						replyTo: email,
@@ -69,7 +69,7 @@ exports.contact = onRequest({ secrets: [SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PA
 								<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:560px;margin:0 auto;background:#ffffff;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,0.06);overflow:hidden;">
 									<tr>
 										<td style="padding:16px 20px;background:#0ea5e9;color:#fff;font-weight:700;font-size:16px;">
-											SOP Edits • New Enquiry
+											Mayrake • New Enquiry
 										</td>
 									</tr>
 									<tr>
