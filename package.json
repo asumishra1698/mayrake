@@ -1,0 +1,27 @@
+{
+  "name": "sop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "build:static": "next build",
+    "deploy": "npm run build:static && firebase deploy"
+  },
+  "dependencies": {
+    "firebase": "^12.11.0",
+    "next": "^16.1.6",
+    "nodemailer": "^7.0.11",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-phone-input-2": "^2.15.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^4.0.0",
+    "eslint-config-next": "^0.2.4",
+    "tailwindcss": "^4"
+  }
+}
