@@ -407,7 +407,7 @@ export default function HomePage() {
         </div>
       </section>
       {/* Fifth Section: About Mayrake */}
-      <section className="bg-[#f6fbff] py-16">
+      <section className="bg-[#f6fbff] py-5">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-4xl font-extrabold mb-8">
             About <span className="text-blue-500">Mayrake </span>
@@ -459,7 +459,7 @@ export default function HomePage() {
         </div>
       </section>
       {/* Founder Notes Section */}
-      <section className="bg-white py-16">
+      <section className="bg-white py-5">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-extrabold text-center mb-10">
             <span className="text-blue-500">Founder's</span> Note
