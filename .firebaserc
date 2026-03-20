@@ -1,6 +1,15 @@
 {
-  "hosting": {
-    "site": "mayrake",
-    "public": "public"
-  }
+  "projects": {
+    "default": "gonard-126c0"
+  },
+  "targets": {
+    "gonard-126c0": {
+      "hosting": {
+        "main": [
+          "mayrake"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
