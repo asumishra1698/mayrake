@@ -534,7 +534,7 @@ export default function HomePage() {
           </div>
         </div>
         <div className="container mx-auto px-4">
-          <div className="text-gray-500 text-lg mb-1">Copyright © 2025, Mayrake</div>
+          <div className="text-gray-500 text-lg mb-1">Copyright © 2026, Mayrake</div>
           <div className="text-gray-500 text-lg">All rights reserved.</div>
         </div>
       </footer>
