@@ -258,7 +258,7 @@ export default function HomePage() {
 
               <div className="flex items-center">
                 <input type="checkbox" className="mr-2 h-4 w-4" defaultChecked />
-                <span className="text-gray-600 text-base">I have read and agreed to <a href="#" className="text-blue-600 underline">terms</a> & <a href="#" className="text-blue-600 underline">privacy policy</a></span>
+                <span className="text-gray-600 text-base">I have read and agreed to <a href="https://mayrake.com/pages/terms-and-conditions" className="text-blue-600 underline">terms</a> & <a href="https://mayrake.com/pages/privacy-policy" className="text-blue-600 underline">privacy policy</a></span>
               </div>
               <button type="submit" className="w-full bg-blue-400 text-white font-bold py-2 rounded-xl mt-2 text-lg hover:bg-blue-500 transition" disabled={submitting}>{submitting ? "Submitting..." : "Submit"}</button>
               {message && <div className="text-center text-sm mt-2">{message}</div>}
@@ -528,8 +528,8 @@ export default function HomePage() {
             {/* <div className="text-gray-500 text-lg mb-2">A plan for every dream</div>cls */}
           </div>
           <div className="flex flex-col md:items-end gap-2 md:gap-4">
-            <a href="#" className="text-gray-500 text-lg hover:underline">Privacy Policy</a>
-            <a href="#" className="text-gray-500 text-lg hover:underline">Terms & Conditions</a>
+            <a href="https://mayrake.com/pages/privacy-policy" className="text-gray-500 text-lg hover:underline">Privacy Policy</a>
+            <a href="https://mayrake.com/pages/terms-and-conditions" className="text-gray-500 text-lg hover:underline">Terms & Conditions</a>
           </div>
         </div>
         <div className="container mx-auto px-4">
