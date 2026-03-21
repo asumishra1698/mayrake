@@ -197,7 +197,7 @@ function HomePage() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     href: "tel:8290806541",
                                     "aria-label": "Call us",
-                                    className: "flex items-center justify-center w-10 h-10 text-gray-700 hover:bg-blue-50 transition",
+                                    className: "flex items-center justify-center w-10 h-10 text-gray-700 hover:bg-[rgba(62,82,59,0.12)] transition",
                                     title: "Call us",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "https://gonardweb.com/wp-content/uploads/2023/09/call.png",
@@ -381,7 +381,7 @@ function HomePage() {
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                         type: "text",
                                                         placeholder: "Enter Full Name*",
-                                                        className: "w-full border border-gray-300 rounded-xl px-2 py-3 text-md focus:outline-none focus:ring-2 focus:ring-blue-500 peer",
+                                                        className: "w-full border border-gray-300 rounded-xl px-2 py-3 text-md focus:outline-none focus:ring-2 focus:ring-[rgb(62,82,59)] peer",
                                                         required: true,
                                                         value: name,
                                                         onChange: (e)=>setName(e.target.value)
@@ -391,7 +391,7 @@ function HomePage() {
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                        className: "absolute left-4 top-[-8px] bg-white px-1 text-xs text-gray-500 pointer-events-none peer-focus:text-blue-500",
+                                                        className: "absolute left-4 top-[-8px] bg-white px-1 text-xs text-gray-500 pointer-events-none peer-focus:text-[rgb(62,82,59)]",
                                                         children: "Name*"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/HomePage.js",
@@ -410,7 +410,7 @@ function HomePage() {
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                         type: "email",
                                                         placeholder: "Enter Email Address*",
-                                                        className: "w-full border border-gray-300 rounded-xl px-4 py-3 text-md focus:outline-none focus:ring-2 focus:ring-blue-500 peer",
+                                                        className: "w-full border border-gray-300 rounded-xl px-4 py-3 text-md focus:outline-none focus:ring-2 focus:ring-[rgb(62,82,59)] peer",
                                                         required: true,
                                                         value: email,
                                                         onChange: (e)=>setEmail(e.target.value)
@@ -420,7 +420,7 @@ function HomePage() {
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                        className: "absolute left-4 top-[-8px] bg-white px-1 text-xs text-gray-500 pointer-events-none peer-focus:text-blue-500",
+                                                        className: "absolute left-4 top-[-8px] bg-white px-1 text-xs text-gray-500 pointer-events-none peer-focus:text-[rgb(62,82,59)]",
                                                         children: "Enter Email Address*"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/HomePage.js",
@@ -456,7 +456,7 @@ function HomePage() {
                                                         placeholder: "Mobile number*",
                                                         enableSearch: true,
                                                         countryCodeEditable: false,
-                                                        inputClass: "w-full !text-md !border !border-gray-300 !rounded-r-xl focus:!outline-none focus:!ring-2 focus:!ring-blue-500",
+                                                        inputClass: "w-full !text-md !border !border-gray-300 !rounded-r-xl focus:!outline-none focus:!ring-2 focus:!ring-[rgb(62,82,59)]",
                                                         containerClass: "w-full",
                                                         buttonClass: "!rounded-l-xl !border !border-gray-300",
                                                         inputStyle: {
@@ -490,7 +490,7 @@ function HomePage() {
                                                 className: "relative",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-                                                        className: "w-full border border-gray-300 rounded-xl px-4 py-3 text-md focus:outline-none focus:ring-2 focus:ring-blue-500",
+                                                        className: "w-full border border-gray-300 rounded-xl px-4 py-3 text-md focus:outline-none focus:ring-2 focus:ring-[rgb(62,82,59)]",
                                                         value: selectedState,
                                                         onChange: (e)=>setSelectedState(e.target.value),
                                                         required: true,
@@ -549,7 +549,7 @@ function HomePage() {
                                                             "I have read and agreed to ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                                 href: "https://mayrake.com/pages/terms-and-conditions",
-                                                                className: "text-blue-600 underline",
+                                                                className: "text-[rgb(62,82,59)] underline",
                                                                 children: "terms"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/HomePage.js",
@@ -559,12 +559,12 @@ function HomePage() {
                                                             " & ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                                 href: "https://mayrake.com/pages/privacy-policy",
-                                                                className: "text-blue-600 underline",
+                                                                className: "text-[rgb(62,82,59)] underline",
                                                                 children: "privacy policy"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/HomePage.js",
                                                                 lineNumber: 261,
-                                                                columnNumber: 190
+                                                                columnNumber: 197
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
@@ -580,7 +580,7 @@ function HomePage() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 type: "submit",
-                                                className: "w-full bg-blue-400 text-white font-bold py-2 rounded-xl mt-2 text-lg hover:bg-blue-500 transition",
+                                                className: "w-full bg-[rgb(62,82,59)] text-white font-bold py-2 rounded-xl mt-2 text-lg hover:bg-[rgb(52,70,49)] transition",
                                                 disabled: submitting,
                                                 children: submitting ? "Submitting..." : "Submit"
                                             }, void 0, false, {
@@ -646,7 +646,7 @@ function HomePage() {
                             children: [
                                 "Why Choose ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-blue-500",
+                                    className: "text-[rgb(62,82,59)]",
                                     children: "Mayrake ?"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
@@ -665,7 +665,7 @@ function HomePage() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-4xl mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-50",
+                                            className: "text-4xl mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-[rgba(62,82,59,0.12)]",
                                             children: "🧵"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
@@ -699,7 +699,7 @@ function HomePage() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-4xl mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-50",
+                                            className: "text-4xl mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-[rgba(62,82,59,0.12)]",
                                             children: "✨"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
@@ -733,7 +733,7 @@ function HomePage() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-4xl mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-50",
+                                            className: "text-4xl mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-[rgba(62,82,59,0.12)]",
                                             children: "💎"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
@@ -767,7 +767,7 @@ function HomePage() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-4xl mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-50",
+                                            className: "text-4xl mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-[rgba(62,82,59,0.12)]",
                                             children: "👗"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomePage.js",
@@ -825,7 +825,7 @@ function HomePage() {
                             children: [
                                 "500+ ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-blue-500",
+                                    className: "text-[rgb(62,82,59)]",
                                     children: "USA Women Success Stories"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
@@ -898,7 +898,7 @@ function HomePage() {
                                             className: "flex items-center gap-2 mt-auto",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold",
+                                                    className: "bg-[rgba(62,82,59,0.16)] text-[rgb(62,82,59)] px-3 py-1 rounded-full text-xs font-semibold",
                                                     children: "Ethnic Wear"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
@@ -982,7 +982,7 @@ function HomePage() {
                                             className: "flex items-center gap-2 mt-auto",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold",
+                                                    className: "bg-[rgba(62,82,59,0.16)] text-[rgb(62,82,59)] px-3 py-1 rounded-full text-xs font-semibold",
                                                     children: "Ethnic Wear"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
@@ -1067,7 +1067,7 @@ function HomePage() {
                                             className: "flex items-center gap-2 mt-auto",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold",
+                                                    className: "bg-[rgba(62,82,59,0.16)] text-[rgb(62,82,59)] px-3 py-1 rounded-full text-xs font-semibold",
                                                     children: "Ethnic Wear"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
@@ -1152,7 +1152,7 @@ function HomePage() {
                                             className: "flex items-center gap-2 mt-auto",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold",
+                                                    className: "bg-[rgba(62,82,59,0.16)] text-[rgb(62,82,59)] px-3 py-1 rounded-full text-xs font-semibold",
                                                     children: "Ethnic Wear"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
@@ -1237,7 +1237,7 @@ function HomePage() {
                                             className: "flex items-center gap-2 mt-auto",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold",
+                                                    className: "bg-[rgba(62,82,59,0.16)] text-[rgb(62,82,59)] px-3 py-1 rounded-full text-xs font-semibold",
                                                     children: "Ethnic Wear"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
@@ -1322,7 +1322,7 @@ function HomePage() {
                                             className: "flex items-center gap-2 mt-auto",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold",
+                                                    className: "bg-[rgba(62,82,59,0.16)] text-[rgb(62,82,59)] px-3 py-1 rounded-full text-xs font-semibold",
                                                     children: "Ethnic Wear"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HomePage.js",
@@ -1368,7 +1368,7 @@ function HomePage() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "bg-[#f6fbff] py-5",
+                className: "bg-[rgba(62,82,59,0.08)] py-5",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container mx-auto px-4",
                     children: [
@@ -1377,7 +1377,7 @@ function HomePage() {
                             children: [
                                 "About ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-blue-500",
+                                    className: "text-[rgb(62,82,59)]",
                                     children: "Mayrake "
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
@@ -1509,7 +1509,7 @@ function HomePage() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             type: "button",
-                            className: "text-blue-600 font-semibold hover:underline text-lg focus:outline-none mt-6 block ml-auto",
+                            className: "text-[rgb(62,82,59)] font-semibold hover:underline text-lg focus:outline-none mt-6 block ml-auto",
                             onClick: ()=>setIsAboutExpanded((prev)=>!prev),
                             "aria-expanded": isAboutExpanded,
                             children: isAboutExpanded ? "Read less ..." : "Read more ..."
@@ -1538,7 +1538,7 @@ function HomePage() {
                             className: "text-4xl font-extrabold text-center mb-10",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-blue-500",
+                                    className: "text-[rgb(62,82,59)]",
                                     children: "Founder's"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
@@ -1553,14 +1553,14 @@ function HomePage() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col items-center max-w-full mx-auto bg-[#f6fbff] rounded-2xl shadow-md p-8",
+                            className: "flex flex-col items-center max-w-full mx-auto bg-[rgba(62,82,59,0.08)] rounded-2xl shadow-md p-8",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex justify-center mb-6",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "founder.jpg",
                                         alt: "Founder",
-                                        className: "rounded-full shadow-lg w-40 h-40 object-cover border-4 border-blue-100"
+                                        className: "rounded-full shadow-lg w-40 h-40 object-cover border-4 border-[rgba(62,82,59,0.16)]"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HomePage.js",
                                         lineNumber: 469,
@@ -1580,7 +1580,7 @@ function HomePage() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "text-blue-600 font-semibold mb-4 text-center",
+                                    className: "text-[rgb(62,82,59)] font-semibold mb-4 text-center",
                                     children: "Founder"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",
@@ -1621,7 +1621,7 @@ function HomePage() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "bg-[#f6fbff] py-16",
+                className: "bg-[rgba(62,82,59,0.08)] py-16",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container mx-auto px-4",
                     children: [
@@ -1629,7 +1629,7 @@ function HomePage() {
                             className: "text-4xl font-extrabold text-center mb-10",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-blue-500",
+                                    className: "text-[rgb(62,82,59)]",
                                     children: "Influencer"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HomePage.js",

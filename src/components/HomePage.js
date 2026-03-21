@@ -166,7 +166,7 @@ export default function HomePage() {
             <a
               href="tel:8290806541"
               aria-label="Call us"
-              className="flex items-center justify-center w-10 h-10 text-gray-700 hover:bg-blue-50 transition"
+              className="flex items-center justify-center w-10 h-10 text-gray-700 hover:bg-[rgba(62,82,59,0.12)] transition"
               title="Call us"
             >
               <img src="https://gonardweb.com/wp-content/uploads/2023/09/call.png" alt="" srcSet="https://gonardweb.com/wp-content/uploads/2023/09/call.png" width="60" height="60" />
@@ -207,12 +207,12 @@ export default function HomePage() {
             <h2 className="text-2xl font-bold mb-6 text-gray-900 text-center leading-tight">Stay Updated with Mayrake Events</h2>
             <form className="space-y-5" onSubmit={handleSubmit}>
               <div className="relative">
-                <input type="text" placeholder="Enter Full Name*" className="w-full border border-gray-300 rounded-xl px-2 py-3 text-md focus:outline-none focus:ring-2 focus:ring-blue-500 peer" required value={name} onChange={(e) => setName(e.target.value)} />
-                <label className="absolute left-4 top-[-8px] bg-white px-1 text-xs text-gray-500 pointer-events-none peer-focus:text-blue-500">Name*</label>
+                <input type="text" placeholder="Enter Full Name*" className="w-full border border-gray-300 rounded-xl px-2 py-3 text-md focus:outline-none focus:ring-2 focus:ring-[rgb(62,82,59)] peer" required value={name} onChange={(e) => setName(e.target.value)} />
+                <label className="absolute left-4 top-[-8px] bg-white px-1 text-xs text-gray-500 pointer-events-none peer-focus:text-[rgb(62,82,59)]">Name*</label>
               </div>
               <div className="relative">
-                <input type="email" placeholder="Enter Email Address*" className="w-full border border-gray-300 rounded-xl px-4 py-3 text-md focus:outline-none focus:ring-2 focus:ring-blue-500 peer" required value={email} onChange={(e) => setEmail(e.target.value)} />
-                <label className="absolute left-4 top-[-8px] bg-white px-1 text-xs text-gray-500 pointer-events-none peer-focus:text-blue-500">Enter Email Address*</label>
+                <input type="email" placeholder="Enter Email Address*" className="w-full border border-gray-300 rounded-xl px-4 py-3 text-md focus:outline-none focus:ring-2 focus:ring-[rgb(62,82,59)] peer" required value={email} onChange={(e) => setEmail(e.target.value)} />
+                <label className="absolute left-4 top-[-8px] bg-white px-1 text-xs text-gray-500 pointer-events-none peer-focus:text-[rgb(62,82,59)]">Enter Email Address*</label>
               </div>
               <div className="relative">
                 <PhoneInput
@@ -231,7 +231,7 @@ export default function HomePage() {
                   placeholder="Mobile number*"
                   enableSearch
                   countryCodeEditable={false}
-                  inputClass="w-full !text-md !border !border-gray-300 !rounded-r-xl focus:!outline-none focus:!ring-2 focus:!ring-blue-500"
+                  inputClass="w-full !text-md !border !border-gray-300 !rounded-r-xl focus:!outline-none focus:!ring-2 focus:!ring-[rgb(62,82,59)]"
                   containerClass="w-full"
                   buttonClass="!rounded-l-xl !border !border-gray-300"
                   inputStyle={{ height: '48px', padding: '0 45px', width: '100%' }}
@@ -243,7 +243,7 @@ export default function HomePage() {
               {/* State */}
               <div className="relative">
                 <select
-                  className="w-full border border-gray-300 rounded-xl px-4 py-3 text-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-xl px-4 py-3 text-md focus:outline-none focus:ring-2 focus:ring-[rgb(62,82,59)]"
                   value={selectedState}
                   onChange={(e) => setSelectedState(e.target.value)}
                   required
@@ -258,9 +258,9 @@ export default function HomePage() {
 
               <div className="flex items-center">
                 <input type="checkbox" className="mr-2 h-4 w-4" defaultChecked />
-                <span className="text-gray-600 text-base">I have read and agreed to <a href="https://mayrake.com/pages/terms-and-conditions" className="text-blue-600 underline">terms</a> & <a href="https://mayrake.com/pages/privacy-policy" className="text-blue-600 underline">privacy policy</a></span>
+                <span className="text-gray-600 text-base">I have read and agreed to <a href="https://mayrake.com/pages/terms-and-conditions" className="text-[rgb(62,82,59)] underline">terms</a> & <a href="https://mayrake.com/pages/privacy-policy" className="text-[rgb(62,82,59)] underline">privacy policy</a></span>
               </div>
-              <button type="submit" className="w-full bg-blue-400 text-white font-bold py-2 rounded-xl mt-2 text-lg hover:bg-blue-500 transition" disabled={submitting}>{submitting ? "Submitting..." : "Submit"}</button>
+              <button type="submit" className="w-full bg-[rgb(62,82,59)] text-white font-bold py-2 rounded-xl mt-2 text-lg hover:bg-[rgb(52,70,49)] transition" disabled={submitting}>{submitting ? "Submitting..." : "Submit"}</button>
               {message && <div className="text-center text-sm mt-2">{message}</div>}
             </form>
           </div>
@@ -281,23 +281,23 @@ export default function HomePage() {
       <section className="bg-[#fff] py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-extrabold  text-center mb-12">
-            Why Choose <span className="text-blue-500">Mayrake ?</span>
+            Why Choose <span className="text-[rgb(62,82,59)]">Mayrake ?</span>
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <span className="text-4xl mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-50">🧵</span>
+              <span className="text-4xl mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-[rgba(62,82,59,0.12)]">🧵</span>
               <div className="text-sm sm:text-base md:text-xl font-bold text-gray-900 mb-2">Premium <span className="font-normal">Fabrics & Finish</span></div>
             </div>
             <div>
-              <span className="text-4xl mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-50">✨</span>
+              <span className="text-4xl mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-[rgba(62,82,59,0.12)]">✨</span>
               <div className="text-sm sm:text-base md:text-xl font-bold text-gray-900 mb-2">Curated <span className="font-normal">Styles for Every Occasion</span></div>
             </div>
             <div>
-              <span className="text-4xl mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-50">💎</span>
+              <span className="text-4xl mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-[rgba(62,82,59,0.12)]">💎</span>
               <div className="text-sm sm:text-base md:text-xl font-bold text-gray-900 mb-2">Affordable <span className="font-normal">Luxury Looks</span></div>
             </div>
             <div>
-              <span className="text-4xl mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-50">👗</span>
+              <span className="text-4xl mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-[rgba(62,82,59,0.12)]">👗</span>
               <div className="text-sm sm:text-base md:text-xl font-bold text-gray-900 mb-2">Elegant <span className="font-normal">Designs with Modern Appeal</span></div>
             </div>
           </div>
@@ -308,7 +308,7 @@ export default function HomePage() {
       <section className="bg-[#fff] py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-extrabold mb-2">
-            500+ <span className="text-blue-500">USA Women Success Stories</span>
+            500+ <span className="text-[rgb(62,82,59)]">USA Women Success Stories</span>
           </h2>
           {/* <div className="text-gray-500 text-lg mb-10">From Dreamers to Achievers</div> */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -323,7 +323,7 @@ export default function HomePage() {
               </div>
               <div className="text-gray-700 mb-2">I love how Mayrake outfits fit real life in the USA. The fabric feels premium, the cuts are flattering, and I can wear these looks from work to dinner without changing.</div>
               <div className="flex items-center gap-2 mt-auto">
-                <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold">Ethnic Wear</span>
+                <span className="bg-[rgba(62,82,59,0.16)] text-[rgb(62,82,59)] px-3 py-1 rounded-full text-xs font-semibold">Ethnic Wear</span>
                 <img src="/fav.jpg" className="h-6 w-auto ml-auto" />
               </div>
             </div>
@@ -338,7 +338,7 @@ export default function HomePage() {
               </div>
               <div className="text-gray-700 mb-2">As a busy mom, I needed stylish pieces that are easy to wear. Mayrake gave me exactly that. Every order arrived on time and looked even better than the photos.</div>
               <div className="flex items-center gap-2 mt-auto">
-                <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold">Ethnic Wear</span>
+                <span className="bg-[rgba(62,82,59,0.16)] text-[rgb(62,82,59)] px-3 py-1 rounded-full text-xs font-semibold">Ethnic Wear</span>
                 <img src="/fav.jpg" alt="Queen Mary University of London" className="h-6 w-auto ml-auto" />
               </div>
             </div>
@@ -353,7 +353,7 @@ export default function HomePage() {
               </div>
               <div className="text-gray-700 mb-2">The quality is incredible and the stitching is beautiful. I have worn my Mayrake dresses to events across Seattle and always get asked where I bought them.</div>
               <div className="flex items-center gap-2 mt-auto">
-                <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold">Ethnic Wear</span>
+                <span className="bg-[rgba(62,82,59,0.16)] text-[rgb(62,82,59)] px-3 py-1 rounded-full text-xs font-semibold">Ethnic Wear</span>
                 <img src="/fav.jpg" alt="University of Illinois" className="h-6 w-auto ml-auto" />
               </div>
             </div>
@@ -368,7 +368,7 @@ export default function HomePage() {
               </div>
               <div className="text-gray-700 mb-2">Mayrake helped me build a capsule wardrobe that looks polished and feminine. It is now my first choice for office-ready outfits in New York.</div>
               <div className="flex items-center gap-2 mt-auto">
-                <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold">Ethnic Wear</span>
+                <span className="bg-[rgba(62,82,59,0.16)] text-[rgb(62,82,59)] px-3 py-1 rounded-full text-xs font-semibold">Ethnic Wear</span>
                 <img src="/fav.jpg" alt="Central Michigan University" className="h-6 w-auto ml-auto" />
               </div>
             </div>
@@ -383,7 +383,7 @@ export default function HomePage() {
               </div>
               <div className="text-gray-700 mb-2">I wanted bold looks with comfort, and Mayrake delivered. The colors, silhouettes, and fit are perfect for California weather and weekend plans.</div>
               <div className="flex items-center gap-2 mt-auto">
-                <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold">Ethnic Wear</span>
+                <span className="bg-[rgba(62,82,59,0.16)] text-[rgb(62,82,59)] px-3 py-1 rounded-full text-xs font-semibold">Ethnic Wear</span>
                 <img src="/fav.jpg" alt="BSBI" className="h-6 w-auto ml-auto" />
               </div>
             </div>
@@ -398,7 +398,7 @@ export default function HomePage() {
               </div>
               <div className="text-gray-700 mb-2">From brunch outfits to formal looks, everything I purchased from Mayrake feels thoughtfully designed. It is rare to find this quality and value in one brand.</div>
               <div className="flex items-center gap-2 mt-auto">
-                <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold">Ethnic Wear</span>
+                <span className="bg-[rgba(62,82,59,0.16)] text-[rgb(62,82,59)] px-3 py-1 rounded-full text-xs font-semibold">Ethnic Wear</span>
                 <img src="/fav.jpg" alt="Humber" className="h-6 w-auto ml-auto" />
               </div>
             </div>
@@ -406,10 +406,10 @@ export default function HomePage() {
         </div>
       </section>
       {/* Fifth Section: About Mayrake */}
-      <section className="bg-[#f6fbff] py-5">
+      <section className="bg-[rgba(62,82,59,0.08)] py-5">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-4xl font-extrabold mb-8">
-            About <span className="text-blue-500">Mayrake </span>
+            About <span className="text-[rgb(62,82,59)]">Mayrake </span>
           </h2>
           <div className="bg-white rounded-2xl shadow p-6 md:p-8 space-y-6">
             <div>
@@ -449,7 +449,7 @@ export default function HomePage() {
 
           <button
             type="button"
-            className="text-blue-600 font-semibold hover:underline text-lg focus:outline-none mt-6 block ml-auto"
+            className="text-[rgb(62,82,59)] font-semibold hover:underline text-lg focus:outline-none mt-6 block ml-auto"
             onClick={() => setIsAboutExpanded((prev) => !prev)}
             aria-expanded={isAboutExpanded}
           >
@@ -461,19 +461,19 @@ export default function HomePage() {
       <section className="bg-white py-5">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-extrabold text-center mb-10">
-            <span className="text-blue-500">Founder's</span> Note
+            <span className="text-[rgb(62,82,59)]">Founder's</span> Note
           </h2>
-          <div className="flex flex-col items-center max-w-full mx-auto bg-[#f6fbff] rounded-2xl shadow-md p-8">
+          <div className="flex flex-col items-center max-w-full mx-auto bg-[rgba(62,82,59,0.08)] rounded-2xl shadow-md p-8">
             {/* Founder Image Top Centered Circle */}
             <div className="flex justify-center mb-6">
               <img
                 src="founder.jpg"
                 alt="Founder"
-                className="rounded-full shadow-lg w-40 h-40 object-cover border-4 border-blue-100"
+                className="rounded-full shadow-lg w-40 h-40 object-cover border-4 border-[rgba(62,82,59,0.16)]"
               />
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-1 text-center">Priyanka Priyadarshini</h3>
-            <div className="text-blue-600 font-semibold mb-4 text-center">Founder</div>
+            <div className="text-[rgb(62,82,59)] font-semibold mb-4 text-center">Founder</div>
             <p className="text-lg text-gray-700 leading-relaxed text-center mb-4">
               Since childhood, I dreamt of creating fashion. I imagined clothing and accessories long before I had the means to bring them to life. Though I pursued engineering and spent 13 years in IT, my passion for design never faded.
             </p>
@@ -485,10 +485,10 @@ export default function HomePage() {
       </section>
 
       {/* Featured Videos Slider */}
-      <section className="bg-[#f6fbff] py-16">
+      <section className="bg-[rgba(62,82,59,0.08)] py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-extrabold text-center mb-10">
-            <span className="text-blue-500">Influencer</span> Videos
+            <span className="text-[rgb(62,82,59)]">Influencer</span> Videos
           </h2>
           <div className="relative">
             <div id="video-slider" className="flex gap-3 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-2" style={{ scrollbarWidth: 'none' }}>
